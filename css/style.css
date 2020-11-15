@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.map {
+	position: relative;
+	text-align: center;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 99.6%;
+	width: 100.9%;
+}
+
+path {
+	opacity: .4;
+	fill: blue;
+	cursor: pointer;
+	transition: .3s;
+}
+
+path:hover {
+	opacity: .8;
+	transition: .3;
+}
