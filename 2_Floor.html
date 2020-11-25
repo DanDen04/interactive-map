@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Интерактивная карта</title>
+	<meta name="description" content="">
+	<meta name="keywords" content=" ">
+	<link rel="stylesheet" href="css/style.css">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+	<div class="title"><h1>2 Этаж</h1></div>
+
+	<div class="map">
+		<svg viewBox="0 0 1920 1080">
+			<path class="part" d="M 761,743 H 861 V 862 H 761 Z" />
+			<path class="part" d="m 864,743 h 47 v 119 h -47 z" />
+			<path class="part" d="m 761,921 h 63 v 128 h -63 z" />
+			<path class="part" d="m 827,921 h 126 v 128 H 827 Z" />
+			<path class="part" d="m 956,921 h 113 v 128 H 956 Z" />
+			<path class="part" d="m 956,692 h 274 V 862 H 956 Z" />
+			<path class="part" d="m 1131,921 h 95 v 128 h -95 z" />
+			<path class="part" d="m 1229,921 h 45 v 128 h -45 z" />
+			<path class="part" d="m 1277,921 h 138 v 128 h -138 z" />
+			<path class="part" d="m 1274,743 h 42 L 1315.868,861.86514 1274,862 Z" />
+			<path class="part" d="m 1352,743 h 63 v 119 h -63 z" />
+		</svg>
+
+		<img src="svg/2_Floor.svg" alt="">
+	</div>
+
+	<div class="links">
+		<button class="btnDown" onclick="window.location.href = '1_Floor.html'">На этаж ниже</button>
+		<button class="btnUp" onclick="window.location.href = '3_Floor.html'">На этаж выше</button>
+	</div>
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src=""></script>
+<script src=""></script>
+</body>
+</html>

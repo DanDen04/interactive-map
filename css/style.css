@@ -27,3 +27,49 @@ path:hover {
 	opacity: .8;
 	transition: .3;
 }
+
+path:active {
+	opacity: .8;
+	transition: .3;
+}
+
+.btnDown {
+    background-color: #8A2BE2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	transition: .3s;
+}
+
+.btnDown:hover {
+	cursor: pointer;
+	background-color: #691bb3;
+	transition: .3s;
+}
+
+.btnUp {
+    background-color: #2ba8e2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	transition: .3s;
+}
+
+.btnUp:hover {
+	cursor: pointer;
+	background-color: #2b6be2;
+	transition: .3s;
+}
+
+.title {
+	text-align: center;
+	font-size: 24px;
+}
