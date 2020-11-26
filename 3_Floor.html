@@ -1,20 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Интерактивная карта</title>
+	<meta name="description" content="">
+	<meta name="keywords" content=" ">
+	<link rel="stylesheet" href="css/style.css">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
-    <div class="main">
-        <h1>3 этаж</h1>
-        <div id="floorNext">
-            <input type="button" value="На этаж выше" onclick="window.location.href = '1_Floor.html'">
-        </div>
-        <div id="floorPrevious">
-            <input type="button" value="На этаж ниже" onclick="window.location.href = '2_Floor.html'">
-        </div>
-    </div>
+	<div class="title"><h1>3 Этаж</h1></div>
+
+	<div class="map">
+		<svg viewBox="0 0 1920 1080">
+			<path class="part" d="m 761,922 h 63 v 128 h -63 z" />
+			<path class="part" d="m 827,922 125.5,-0.062 v 128.0019 L 827,1050 Z" />
+			<path class="part" d="m 955.5,921.93799 h 113 v 128.00191 h -113 z" />
+			<path class="part" d="m 1072,922 55.5,-0.062 v 128.0019 h -56 z" />
+			<path class="part" d="m 1130.5,921.93799 h 95 v 128.00191 h -95 z" />
+			<path class="part" d="m 1228.5,921.93799 h 45 v 128.00191 h -45 z" />
+			<path class="part" d="M 1276.5,921.93799 1415,922 v 128 l -138.5,-0.06 z" />
+			<path class="part" d="m 1415,744 -96.5,-0.062 0.024,118.93672 95.9758,0.0633 z" />
+			<path class="part" d="m 1315.5,743.93799 h -42 L 1274,863 l 41.3817,0.007 z" />
+			<path class="part" d="m 1229.5,692.93799 v 170 L 1010.5,863 V 693 Z" />
+            <path class="part" d="m 956,693 h 51.5 V 863 H 956 Z" />
+            <path class="part" d="m 863.5,743.93799 h 47 v 119 h -47 z" />
+            <path class="part" d="m 761,744 99.5,-0.062 v 119 l -99.54689,-0.0633 z" />
+		</svg>
+
+		<img src="svg/3_Floor.svg" alt="">
+	</div>
+
+	<div id="floorNext">
+		<input type="button" value="На этаж выше" onclick="window.location.href = '4_Floor.html'">
+	</div>
+	<div id="floorPrevious">
+		<input type="button" value="На этаж ниже" onclick="window.location.href = '2_Floor.html'">
+	</div>
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src=""></script>
+<script src=""></script>
 </body>
 </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Интерактивная карта</title>
+	<meta name="description" content="">
+	<meta name="keywords" content=" ">
+	<link rel="stylesheet" href="css/style.css">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+	<div class="title"><h1>4 Этаж</h1></div>
+
+	<div class="map">
+		<svg viewBox="0 0 1920 1080">
+			<path class="part" d="m 760,921 h 63 v 128 h -62 z" />
+			<path class="part" d="m 826,921 126,-0.062 v 128.0019 L 826,1049 Z" />
+			<path class="part" d="m 955,920.93799 h 113 V 1048.9399 H 955 Z" />
+			<path class="part" d="m 1127,921 h -56 v 127.9399 h 56 z" />
+			<path class="part" d="m 1130,920.93799 h 95 v 128.00191 h -95 z" />
+			<path class="part" d="m 1228,920.93799 h 45 v 128.00191 h -45 z" />
+			<path class="part" d="M 1276,920.93799 1414,921 v 128 l -138,-0.06 z" />
+			<path class="part" d="M 1318,742.93799 1414,742 v 119.93799 l -95.5553,-0.26193 z" />
+			<path class="part" d="m 1315,742.93799 h -42 V 862 l 42.036,0.16302 z" />
+			<path class="part" d="m 1150,692 79,-0.062 v 170 L 1150,863 Z" />
+            <path class="part" d="m 1055,692 h 92 v 171 l -92,-1 z" />
+            <path class="part" d="M 1052,862 V 692 h -97 v 170 z" />
+            <path class="part" d="m 863,861.93799 h 47 v -119 h -47 z" />
+            <path class="part" d="m 860,861.93799 v -119 L 759,743 l 1,119 z" />
+		</svg>
+
+		<img src="svg/4_Floor.svg" alt="">
+	</div>
+
+	<div id="floorPrevious">
+		<input type="button" value="На этаж ниже" onclick="window.location.href = '3_Floor.html'">
+	</div>
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src=""></script>
+<script src=""></script>
+</body>
+</html>
