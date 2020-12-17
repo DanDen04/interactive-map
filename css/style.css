@@ -10,24 +10,30 @@ body {
 	text-align: center;
 }
 
+.map img {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+  
+
 svg {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 99.6%;
-	width: 100.9%;
+	min-height: 99.8%;
+	min-width: 100%;
 }
 
 path {
 	opacity: .4;
 	fill: #4c87af;
 	cursor: pointer;
-	transition: .3s;
 }
 
 path:hover {
 	fill: #af4c4c;
-	transition: .3;
+	transition: .3s;
 }
 
 path:active {
@@ -64,15 +70,11 @@ path:active {
     font-size: 16px;
     margin: 4px 2px;
 	cursor: pointer;
-	transition: .3s;
 }
 
 #floorNext input:hover{
 	background-color: #4c87af;
-    border: none;
 	color: rgb(255, 255, 255);
-	border: 2px solid #4c87af;
-	cursor: pointer;
 	transition: .3s;
 }
 
