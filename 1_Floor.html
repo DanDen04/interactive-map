@@ -12,7 +12,7 @@
 	<div class="title"><h1>1 Этаж</h1></div>
 
 	<div class="map">
-		<svg viewBox="0 0 1920 1080">
+		<svg>
 			
 			<!-- 1 кор -->
 			<path class="1106" d="m 867,901 0.051,-91.99592 h -34.43681 l -0.0202,71.68391 H 830.25 L 830.13575,809.00408 790,809 l 0.0247,92.03123 40.2253,0.0938 v -12.59399 h 2.34399 V 901.125 Z"/>
@@ -68,12 +68,13 @@
 		<img src="svg/1_Floor.svg" alt="">
 	</div>
 	
-	<div id="floorNext">
-		<input type="button" value="На этаж выше" onclick="window.location.href = '2_Floor.html'">
-	</div>
-	<div id="floorPrevious">
-		<input type="button" value="На этаж ниже" onclick="window.location.href = '0_Floor.html'">
-	</div>
+	<ul>
+		<li><a href="0_Floor.html">0 Этаж</a></li>
+		<li><a class="active" href="1_Floor.html">1 Этаж</a></li>
+		<li><a href="2_Floor.html">2 Этаж</a></li>
+		<li><a href="3_Floor.html">3 Этаж</a></li>
+		<li><a href="4_Floor.html">4 Этаж</a></li>
+	</ul>
 
 
 

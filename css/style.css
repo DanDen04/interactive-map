@@ -1,21 +1,37 @@
 body {
-	margin: 0;
-	padding: 0;
+	margin: none;
+	/**
+    * Для эксплорера
+    */
+	-ms-user-select: none;
+
+	/**
+	* Для мозилы
+	*/
+	-moz-user-select: none;
+ 
+	 /**
+	* Для конкверора
+	*/
+	-khtml-user-select: none;
+ 
+	/**
+	* Для Сафари и Хрома
+	*/
+	-webkit-user-select: none;
+	margin: 0px;
 }
 
 /* Карта */
 
 .map {
+	height: 1080px;
+	width: 1920px;
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
 	position: relative;
-	text-align: center;
 }
-
-.map img {
-	width: 100%;
-	max-width: 100%;
-	display: block;
-}
-  
 
 svg {
 	position: absolute;
@@ -36,17 +52,112 @@ path:hover {
 	transition: .3s;
 }
 
-path:active {
-	opacity: .8;
-	transition: .3;
-}
-
 .title {
 	text-align: center;
 	font-size: 24px;
 }
 
-/* Кнопки */
+.map path:hover, #hover {
+	fill: #af4c4c;
+}
+
+/* Информация */
+
+.info-item {
+	position: absolute;
+	cursor: default;
+}
+.title-info {
+	text-align: center; 
+	font-weight: bold;
+}
+.info-name {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	line-height: 15px;
+	cursor: pointer;
+}
+.info-popup {
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+	border: 1px solid #777;
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	font-size: 14px;
+	line-height: 16px;
+	background: #fff;
+	z-index: 9999;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	text-align: left;
+	overflow-y: auto;
+}
+
+.photo {
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: auto;
+}
+
+/* Полоса прокрутки */
+
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #999999;
+}
+
+/* Навигация */
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	right: 0%;
+	top:50%;
+	margin: -15% 0 0 -25%;
+	padding: 0;
+	max-width: 500px;
+	min-width: 200px;
+	background-color: #f1f1f1;
+	z-index: 9999;
+}
+  
+li a {
+	display: block;
+	color: #000;
+	padding: 25px 32px;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+  /* Change the link color on hover */
+li a:hover {
+	background-color: #4c87af;
+	color: white;
+}
+
+li a.active {
+	background-color: #4c87af;
+	color: white;
+}
+
+/* Кнопки
 
 #floorNext {
 	position: relative;
@@ -100,4 +211,4 @@ path:active {
 	border: 2px solid #af4c4c;
 	cursor: pointer;
 	transition: .3s;
-}
+} */

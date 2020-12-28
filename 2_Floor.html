@@ -5,14 +5,15 @@
 	<title>Интерактивная карта</title>
 	<meta name="description" content="">
 	<meta name="keywords" content=" ">
-	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
 	<div class="title"><h1>2 Этаж</h1></div>
 
 	<div class="map">
-		<svg viewBox="0 0 1920 1080">
+		<svg>
 			
 			<!-- 1 кор -->
 			<path class="1206" d="M 761,743 H 861 V 862 H 761 Z" />
@@ -31,7 +32,7 @@
 			<path class="2202" d="m 1279,501 v 39 h -64 v -39 z" />
 			<path class="service_room" d="m 1279,483 h -64 v 15 h 64 z" />
 			<path class="2203" d="M 1278.8522,438.93831 1215,439 v 15 h 64 z" />
-			<path class="2204" d="M 1278.8522,411.90818 1279,334 h -64 v 78 z" />
+			<path data-id="2204" d="M 1278.8522,411.90818 1279,334 h -64 v 78 z" />
 			<path class="2205" d="m 1279,331 v -41 h -64 v 41 z" />
 			<path class="2206" d="M 1278.8792,224.12343 1215,224 v 63 h 64 z" />
 			<path class="bathroom" d="m 1278.8792,187.72315 0.1237,-20.76476 L 1215,167 v 21 z" />
@@ -40,9 +41,9 @@
 			<path class="2209" d="m 1315,22 h 77 v 57 h -77 z" />
 			<path class="2210" d="M 1271.0186,61.032998 1246,61 v 21 h 25 z" />
 			<path class="2211" d="m 1315,82 h 92 v 113 h -19 v 3 h 19 v 22 h -92 v -22 h 58 v -3 h -58 z" />
-			<path class="2212" d="m 1407,223 h -92 v 102 h 92 z" />
-			<path class="2213" d="m 1315,328 h 92 v 19 h -92 z" />
-			<path class="2214" d="m 1315,350 h 92 v 19 h -92 z" />
+			<path data-id="2212" d="m 1407,223 h -92 v 102 h 92 z" />
+			<path data-id="2213" d="m 1315,328 h 92 v 19 h -92 z" />
+			<path data-id="2214" d="m 1315,350 h 92 v 19 h -92 z" />
 			<path class="2215" d="m 1315,372 h 92 v 74 h -92 z" />
 			<path class="2216" d="m 1407,472 v -23 h -92 v 23 z" />
 			<path class="2217" d="m 1315,475 h 92 v 66 h -10 v 3 h 10 v 37 h -58 v -37 h 36 v -3 l -69.964,-0.0177 z" />
@@ -54,7 +55,8 @@
 			<path class="toilet" d="m 877,395 h 22 L 898.98939,364.97666 887,365 v -3 L 898.98939,361.9332 899,310 h -22 v 52 h 3 v 3 h -3 z" />
 			<path class="service_room" d="m 862,395 h 12 L 874.003,346.91535 862,347 Z" />
 			<path class="bathroom" d="m 847,310 h 27 l 0.003,33.90244 L 857,344 v 3 h 2 v 48 h -12 v -48 h 3 v -3 h -3 z" />
-			<path class="3206" d="m 844,395 v -85 h -80 v 54 h -3 v -54 h -21 v 54 h -3 v -54 h -51 v 85 h 51 v -14 h 3 v 14 h 21 v -14 h 3 v 14 z" />
+			<path data-id="3206" d="m 764,310 v 85 h 80 v -85 z" />
+			<path data-id="3205" d="m 686,310 h 51 v 85 h -51 z" />
 			<path class="3204" d="m 579,310 h 104 v 85 H 579 v -18 h -3 v 18 h -83 v -85 h 83 v 54 h 3 z" />
 			<path class="3203" d="m 493,398 v 76 h 50 v -43 h 3 v 43 h 81 v -76 h -81 v 20 h -3 v -20 z" />
 			<path class="3202" d="m 899,474 v -51 h 24 v 51 z" />
@@ -64,11 +66,50 @@
 		<img src="svg/2_Floor.svg" alt="">
 	</div>
 
-	<div id="floorNext">
+	<ul>
+		<li><a href="0_Floor.html">0 Этаж</a></li>
+		<li><a href="1_Floor.html">1 Этаж</a></li>
+		<li><a class="active" href="2_Floor.html">2 Этаж</a></li>
+		<li><a href="3_Floor.html">3 Этаж</a></li>
+		<li><a href="4_Floor.html">4 Этаж</a></li>
+	</ul>
+
+	<!-- <div id="floorNext">
 		<input type="button" value="На этаж выше" onclick="window.location.href = '3_Floor.html'">
 	</div>
 	<div id="floorPrevious">
 		<input type="button" value="На этаж ниже" onclick="window.location.href = '1_Floor.html'">
+	</div> -->
+
+	<div class="info">
+
+		<div class="info-item" data-id="2204" style="top: 490px; left: 1233px;">
+			<div class="info-name">2204</div>
+			<div class="info-popup"><p class="title-info">Аудитория 2204</p>
+				<p><strong>Лаборатория: </strong>Технологии разработки баз дынных, управление проектной деятельностью, компьютеризации профессиональной деятельности программирования и баз дынных</p>
+				<p><strong>Преподаватель: </strong>Фамилия Имя Отчество</p>
+				<img class="photo" src="https://frizzin.online/local/templates/optomag/no_foto.jpg">
+			</div>
+		</div>
+		
+		<div class="info-item" data-id="3205" style="top: 470px; left: 697px;">
+			<div class="info-name">3205</div>
+			<div class="info-popup"><p class="title-info">Аудитория 3205</p>
+				<p><strong>Лаборатория: </strong>Веб-дизайн и разработка</p>
+				<p><strong>Преподаватель: </strong>Фамилия Имя Отчество</p>
+				<img class="photo" src="https://frizzin.online/local/templates/optomag/no_foto.jpg">
+			</div>
+		</div>
+
+		<div class="info-item" data-id="3206" style="top: 470px; left: 790px;">
+			<div class="info-name">3206</div>
+			<div class="info-popup"><p class="title-info">Аудитория 3206</p>
+			<p><strong>Лаборатория: </strong>Разработка компьютерных игр и мультимедийных приложений</p>
+			<p><strong>Преподаватель: </strong>Фамилия Имя Отчество</p>
+			<img class="photo" src="https://frizzin.online/local/templates/optomag/no_foto.jpg">
+			</div>
+		</div>
+
 	</div>
 
 
@@ -79,7 +120,7 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 <![endif]-->
-<script src=""></script>
+<script src="script.js"></script>
 <script src=""></script>
 </body>
 </html>
