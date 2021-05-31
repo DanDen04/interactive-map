@@ -1,0 +1,223 @@
+<svg id="_3" data-name="3" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eeedeb;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #c6c7c7;
+      }
+
+      .cls-3, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #c6c6c7;
+      }
+
+      .cls-7 {
+        fill: #edeceb;
+      }
+    </style>
+  </defs>
+  <g id="Коридоры">
+    <rect id="Прямоугольник_539" data-name="Прямоугольник 539" class="cls-1" x="1210" y="417" width="5" height="17"/>
+    <rect id="Прямоугольник_540" data-name="Прямоугольник 540" class="cls-1" x="1007" y="417" width="203" height="21"/>
+    <rect id="Прямоугольник_541" data-name="Прямоугольник 541" class="cls-1" x="1007" y="398" width="29" height="19"/>
+    <rect id="Прямоугольник_542" data-name="Прямоугольник 542" class="cls-1" x="630" y="398" width="377" height="22"/>
+    <rect id="Прямоугольник_543" data-name="Прямоугольник 543" class="cls-1" x="630" y="420" width="266" height="54"/>
+  </g>
+  <g id="Кабинеты">
+    <rect id="Прямоугольник_525" data-name="Прямоугольник 525" class="cls-2" x="929" y="310" width="75" height="85"/>
+    <rect id="Прямоугольник_751" data-name="Прямоугольник 751" class="cls-2" x="1113" y="371" width="97" height="43"/>
+    <rect id="Прямоугольник_752" data-name="Прямоугольник 752" class="cls-2" x="1036" y="371" width="74" height="43"/>
+    <rect id="Прямоугольник_753" data-name="Прямоугольник 753" class="cls-2" x="1007" y="371" width="29" height="27"/>
+    <rect id="Прямоугольник_526" data-name="Прямоугольник 526" class="cls-2" x="926" y="423" width="78" height="51"/>
+    <rect id="Прямоугольник_527" data-name="Прямоугольник 527" class="cls-2" x="899" y="423" width="24" height="51"/>
+    <rect id="Прямоугольник_529" data-name="Прямоугольник 529" class="cls-2" x="546" y="398" width="81" height="76"/>
+    <rect id="Прямоугольник_530" data-name="Прямоугольник 530" class="cls-2" x="493" y="398" width="50" height="76"/>
+    <rect id="Прямоугольник_531" data-name="Прямоугольник 531" class="cls-2" x="493" y="310" width="83" height="85"/>
+    <rect id="Прямоугольник_532" data-name="Прямоугольник 532" class="cls-2" x="579" y="310" width="104" height="85"/>
+    <rect id="Прямоугольник_533" data-name="Прямоугольник 533" class="cls-2" x="686" y="310" width="51" height="85"/>
+    <rect id="Прямоугольник_534" data-name="Прямоугольник 534" class="cls-2" x="740" y="310" width="21" height="85"/>
+    <rect id="Прямоугольник_535" data-name="Прямоугольник 535" class="cls-2" x="764" y="310" width="80" height="85"/>
+    <rect id="Прямоугольник_536" data-name="Прямоугольник 536" class="cls-2" x="847" y="310" width="79" height="85"/>
+    <path id="Многоугольник_1" data-name="Многоугольник 1" class="cls-3" d="M1037.9,380.1l-1.25,34.864L1007.42,396.3Z"/>
+  </g>
+  <g id="Несущие_стены" data-name="Несущие стены">
+    <rect id="Прямоугольник_737" data-name="Прямоугольник 737" class="cls-4" x="1004" y="366" width="206" height="5"/>
+    <rect id="Прямоугольник_738" data-name="Прямоугольник 738" class="cls-4" x="1004" y="305" width="5" height="61"/>
+    <rect id="Прямоугольник_739" data-name="Прямоугольник 739" class="cls-4" x="488" y="305" width="516" height="5"/>
+    <rect id="Прямоугольник_740" data-name="Прямоугольник 740" class="cls-4" x="488" y="310" width="5" height="169"/>
+    <rect id="Прямоугольник_741" data-name="Прямоугольник 741" class="cls-4" x="493" y="474" width="516" height="5"/>
+    <rect id="Прямоугольник_742" data-name="Прямоугольник 742" class="cls-4" x="1004" y="438" width="5" height="36"/>
+    <rect id="Прямоугольник_743" data-name="Прямоугольник 743" class="cls-4" x="1009" y="438" width="201" height="5"/>
+  </g>
+  <g id="Смежные_стены" data-name="Смежные стены">
+    <rect id="Прямоугольник_744" data-name="Прямоугольник 744" class="cls-4" x="1036" y="414" width="174" height="3"/>
+    <rect id="Прямоугольник_745" data-name="Прямоугольник 745" class="cls-4" x="1110" y="371" width="3" height="43"/>
+    <rect id="Прямоугольник_746" data-name="Прямоугольник 746" class="cls-4" x="1004" y="420" width="3" height="18"/>
+    <rect id="Прямоугольник_747" data-name="Прямоугольник 747" class="cls-4" x="842" y="420" width="162" height="3"/>
+    <rect id="Прямоугольник_748" data-name="Прямоугольник 748" class="cls-4" x="842" y="423" width="3" height="14"/>
+    <rect id="Прямоугольник_749" data-name="Прямоугольник 749" class="cls-4" x="842" y="454" width="3" height="20"/>
+    <rect id="Прямоугольник_750" data-name="Прямоугольник 750" class="cls-4" x="923" y="423" width="3" height="51"/>
+    <rect id="Прямоугольник_502" data-name="Прямоугольник 502" class="cls-4" x="896" y="423" width="3" height="51"/>
+    <rect id="Прямоугольник_503" data-name="Прямоугольник 503" class="cls-4" x="681" y="454" width="3" height="20"/>
+    <rect id="Прямоугольник_504" data-name="Прямоугольник 504" class="cls-4" x="630" y="420" width="54" height="3"/>
+    <rect id="Прямоугольник_505" data-name="Прямоугольник 505" class="cls-4" x="681" y="423" width="3" height="14"/>
+    <rect id="Прямоугольник_506" data-name="Прямоугольник 506" class="cls-4" x="627" y="398" width="3" height="76"/>
+    <rect id="Прямоугольник_507" data-name="Прямоугольник 507" class="cls-4" x="543" y="398" width="3" height="76"/>
+    <rect id="Прямоугольник_508" data-name="Прямоугольник 508" class="cls-4" x="493" y="395" width="511" height="3"/>
+    <rect id="Прямоугольник_509" data-name="Прямоугольник 509" class="cls-4" x="1004" y="371" width="3" height="27"/>
+    <rect id="Прямоугольник_510" data-name="Прямоугольник 510" class="cls-4" x="926" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_511" data-name="Прямоугольник 511" class="cls-4" x="899" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_512" data-name="Прямоугольник 512" class="cls-4" x="874" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_513" data-name="Прямоугольник 513" class="cls-4" x="859" y="347" width="3" height="48"/>
+    <rect id="Прямоугольник_516" data-name="Прямоугольник 516" class="cls-4" x="877" y="362" width="49" height="3"/>
+    <rect id="Прямоугольник_517" data-name="Прямоугольник 517" class="cls-4" x="761" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_518" data-name="Прямоугольник 518" class="cls-4" x="737" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_519" data-name="Прямоугольник 519" class="cls-4" x="683" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_520" data-name="Прямоугольник 520" class="cls-4" x="576" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_514" data-name="Прямоугольник 514" class="cls-4" x="844" y="310" width="3" height="85"/>
+    <rect id="Прямоугольник_515" data-name="Прямоугольник 515" class="cls-4" x="847" y="344" width="27" height="3"/>
+    <path id="Фигура_1" data-name="Фигура 1" class="cls-5" d="M1037.16,414.45l-1.58,2.55-30.66-19,1.58-2.55Z"/>
+  </g>
+  <g id="Нсущие_стены" data-name="Нсущие стены">
+    <rect id="Прямоугольник_509-2" data-name="Прямоугольник 509" class="cls-4" x="756" y="1049" width="664" height="5"/>
+    <rect id="Прямоугольник_510-2" data-name="Прямоугольник 510" class="cls-4" x="1415" y="738" width="5" height="311"/>
+    <rect id="Прямоугольник_511-2" data-name="Прямоугольник 511" class="cls-4" x="1346" y="738" width="69" height="5"/>
+    <rect id="Прямоугольник_512-2" data-name="Прямоугольник 512" class="cls-4" x="1230" y="738" width="90" height="5"/>
+    <rect id="Прямоугольник_513-2" data-name="Прямоугольник 513" class="cls-4" x="1230" y="687" width="5" height="51"/>
+    <rect id="Прямоугольник_514-2" data-name="Прямоугольник 514" class="cls-4" x="951" y="687" width="279" height="5"/>
+    <rect id="Прямоугольник_515-2" data-name="Прямоугольник 515" class="cls-4" x="951" y="692" width="5" height="51"/>
+    <rect id="Прямоугольник_516-2" data-name="Прямоугольник 516" class="cls-4" x="756" y="738" width="195" height="5"/>
+    <rect id="Прямоугольник_517-2" data-name="Прямоугольник 517" class="cls-4" x="756" y="743" width="5" height="306"/>
+  </g>
+  <g id="Смежные_стены-2" data-name="Смежные стены">
+    <rect id="Прямоугольник_520-2" data-name="Прямоугольник 520" class="cls-4" x="761" y="862" width="153" height="3"/>
+    <rect id="Прямоугольник_521" data-name="Прямоугольник 521" class="cls-4" x="861" y="743" width="3" height="119"/>
+    <rect id="Прямоугольник_522" data-name="Прямоугольник 522" class="cls-4" x="911" y="743" width="3" height="119"/>
+    <rect id="Прямоугольник_523" data-name="Прямоугольник 523" class="cls-4" x="953" y="743" width="3" height="122"/>
+    <rect id="Прямоугольник_524" data-name="Прямоугольник 524" class="cls-4" x="956" y="862" width="277" height="3"/>
+    <rect id="Прямоугольник_525-2" data-name="Прямоугольник 525" class="cls-4" x="1230" y="743" width="3" height="119"/>
+    <rect id="Прямоугольник_526-2" data-name="Прямоугольник 526" class="cls-4" x="1271" y="743" width="3" height="122"/>
+    <rect id="Прямоугольник_527-2" data-name="Прямоугольник 527" class="cls-4" x="1274" y="862" width="45" height="3"/>
+    <rect id="Прямоугольник_529-2" data-name="Прямоугольник 529" class="cls-4" x="1347" y="743" width="3" height="119"/>
+    <rect id="Прямоугольник_530-2" data-name="Прямоугольник 530" class="cls-4" x="1347" y="862" width="68" height="3"/>
+    <rect id="Прямоугольник_531-2" data-name="Прямоугольник 531" class="cls-4" x="761" y="918" width="311" height="3"/>
+    <rect id="Прямоугольник_532-2" data-name="Прямоугольник 532" class="cls-4" x="824" y="921" width="3" height="128"/>
+    <rect id="Прямоугольник_533-2" data-name="Прямоугольник 533" class="cls-4" x="953" y="921" width="3" height="128"/>
+    <rect id="Прямоугольник_534-2" data-name="Прямоугольник 534" class="cls-4" x="1069" y="921" width="3" height="128"/>
+    <rect id="Прямоугольник_535-2" data-name="Прямоугольник 535" class="cls-4" x="1128" y="921" width="3" height="128"/>
+    <rect id="Прямоугольник_536-2" data-name="Прямоугольник 536" class="cls-4" x="1128" y="918" width="287" height="3"/>
+    <rect id="Прямоугольник_537" data-name="Прямоугольник 537" class="cls-4" x="1226" y="921" width="3" height="128"/>
+    <rect id="Прямоугольник_538" data-name="Прямоугольник 538" class="cls-4" x="1274" y="921" width="3" height="128"/>
+    <rect id="Прямоугольник_528" data-name="Прямоугольник 528" class="cls-4" x="1316" y="743" width="3" height="119"/>
+  </g>
+  <g id="Кабинеты-2" data-name="Кабинеты">
+    <g id="Фон">
+      <rect id="Прямоугольник_541-2" data-name="Прямоугольник 541" class="cls-6" x="761" y="743" width="100" height="119"/>
+      <rect id="Прямоугольник_542-2" data-name="Прямоугольник 542" class="cls-6" x="864" y="743" width="47" height="119"/>
+      <rect id="Прямоугольник_543-2" data-name="Прямоугольник 543" class="cls-6" x="956" y="693" width="274" height="169"/>
+      <rect id="Прямоугольник_544" data-name="Прямоугольник 544" class="cls-6" x="1274" y="743" width="42" height="119"/>
+      <rect id="Прямоугольник_545" data-name="Прямоугольник 545" class="cls-6" x="1350" y="743" width="65" height="119"/>
+      <rect id="Прямоугольник_546" data-name="Прямоугольник 546" class="cls-6" x="761" y="921" width="63" height="128"/>
+      <rect id="Прямоугольник_547" data-name="Прямоугольник 547" class="cls-6" x="827" y="921" width="126" height="128"/>
+      <rect id="Прямоугольник_548" data-name="Прямоугольник 548" class="cls-6" x="956" y="921" width="113" height="128"/>
+      <rect id="Прямоугольник_549" data-name="Прямоугольник 549" class="cls-6" x="1131" y="921" width="95" height="128"/>
+      <rect id="Прямоугольник_550" data-name="Прямоугольник 550" class="cls-6" x="1229" y="921" width="45" height="128"/>
+      <rect id="Прямоугольник_551" data-name="Прямоугольник 551" class="cls-6" x="1277" y="921" width="138" height="128"/>
+    </g>
+  </g>
+  <g id="Коридоры-2" data-name="Коридоры">
+    <rect id="Прямоугольник_554" data-name="Прямоугольник 554" class="cls-7" x="761" y="865" width="654" height="53"/>
+    <rect id="Прямоугольник_555" data-name="Прямоугольник 555" class="cls-7" x="1233" y="743" width="38" height="122"/>
+    <rect id="Прямоугольник_556" data-name="Прямоугольник 556" class="cls-7" x="1319" y="743" width="28" height="122"/>
+    <rect id="Прямоугольник_557" data-name="Прямоугольник 557" class="cls-7" x="1072" y="918" width="56" height="131"/>
+    <rect id="Прямоугольник_558" data-name="Прямоугольник 558" class="cls-7" x="914" y="743" width="39" height="122"/>
+  </g>
+  <g id="Несущие_стены-2" data-name="Несущие стены">
+    <rect id="Прямоугольник_700" data-name="Прямоугольник 700" class="cls-4" x="1346" y="581" width="5" height="157"/>
+    <rect id="Прямоугольник_701" data-name="Прямоугольник 701" class="cls-4" x="1351" y="581" width="61" height="5"/>
+    <rect id="Прямоугольник_702" data-name="Прямоугольник 702" class="cls-4" x="1407" y="77" width="5" height="504"/>
+    <rect id="Прямоугольник_703" data-name="Прямоугольник 703" class="cls-4" x="1315" y="581" width="5" height="157"/>
+    <rect id="Прямоугольник_704" data-name="Прямоугольник 704" class="cls-4" x="1210" y="581" width="105" height="5"/>
+    <rect id="Прямоугольник_705" data-name="Прямоугольник 705" class="cls-4" x="1210" y="434" width="5" height="147"/>
+    <rect id="Прямоугольник_706" data-name="Прямоугольник 706" class="cls-4" x="1210" y="82" width="5" height="335"/>
+    <rect id="Прямоугольник_707" data-name="Прямоугольник 707" class="cls-4" x="1215" y="82" width="31" height="5"/>
+    <rect id="Прямоугольник_708" data-name="Прямоугольник 708" class="cls-4" x="1241" y="61" width="5" height="21"/>
+    <rect id="Прямоугольник_709" data-name="Прямоугольник 709" class="cls-4" x="1147" y="56" width="127" height="5"/>
+    <rect id="Прямоугольник_710" data-name="Прямоугольник 710" class="cls-4" x="1147" y="17" width="5" height="39"/>
+    <rect id="Прямоугольник_711" data-name="Прямоугольник 711" class="cls-4" x="1152" y="17" width="260" height="5"/>
+    <rect id="Прямоугольник_712" data-name="Прямоугольник 712" class="cls-4" x="1392" y="22" width="5" height="55"/>
+    <rect id="Прямоугольник_713" data-name="Прямоугольник 713" class="cls-4" x="1392" y="77" width="15" height="5"/>
+  </g>
+  <g id="Коридоры-3" data-name="Коридоры">
+    <rect id="Прямоугольник_509-3" data-name="Прямоугольник 509" class="cls-7" x="1320" y="544" width="26" height="199"/>
+    <rect id="Прямоугольник_510-3" data-name="Прямоугольник 510" class="cls-7" x="1282" y="544" width="38" height="37"/>
+    <rect id="Прямоугольник_511-3" data-name="Прямоугольник 511" class="cls-7" x="1282" y="84" width="30" height="460"/>
+    <rect id="Прямоугольник_754" data-name="Прямоугольник 754" class="cls-7" x="1215" y="167" width="67" height="21"/>
+    <rect id="Прямоугольник_512-3" data-name="Прямоугольник 512" class="cls-7" x="1274" y="22" width="38" height="62"/>
+    <rect id="Прямоугольник_513-3" data-name="Прямоугольник 513" class="cls-7" x="1215" y="191" width="67" height="30"/>
+    <rect id="Прямоугольник_514-3" data-name="Прямоугольник 514" class="cls-7" x="1215" y="415" width="67" height="21"/>
+    <rect id="Прямоугольник_515-3" data-name="Прямоугольник 515" class="cls-7" x="1215" y="457" width="67" height="30"/>
+  </g>
+  <g id="Кабинеты-3" data-name="Кабинеты">
+    <rect id="Прямоугольник_518-2" data-name="Прямоугольник 518" class="cls-6" x="1349" y="544" width="58" height="37"/>
+    <rect id="Прямоугольник_519-2" data-name="Прямоугольник 519" class="cls-6" x="1315" y="475" width="92" height="66"/>
+    <rect id="Прямоугольник_520-3" data-name="Прямоугольник 520" class="cls-6" x="1315" y="449" width="92" height="23"/>
+    <rect id="Прямоугольник_521-2" data-name="Прямоугольник 521" class="cls-6" x="1315" y="372" width="92" height="74"/>
+    <rect id="Прямоугольник_522-2" data-name="Прямоугольник 522" class="cls-6" x="1315" y="350" width="92" height="19"/>
+    <rect id="Прямоугольник_523-2" data-name="Прямоугольник 523" class="cls-6" x="1315" y="328" width="92" height="19"/>
+    <rect id="Прямоугольник_524-2" data-name="Прямоугольник 524" class="cls-6" x="1315" y="223" width="92" height="102"/>
+    <rect id="Прямоугольник_525-3" data-name="Прямоугольник 525" class="cls-6" x="1315" y="198" width="92" height="22"/>
+    <rect id="Прямоугольник_526-3" data-name="Прямоугольник 526" class="cls-6" x="1315" y="82" width="92" height="113"/>
+    <rect id="Прямоугольник_527-3" data-name="Прямоугольник 527" class="cls-6" x="1315" y="22" width="77" height="57"/>
+    <rect id="Прямоугольник_528-2" data-name="Прямоугольник 528" class="cls-6" x="1152" y="22" width="119" height="34"/>
+    <rect id="Прямоугольник_529-3" data-name="Прямоугольник 529" class="cls-6" x="1246" y="61" width="25" height="23"/>
+    <rect id="Прямоугольник_530-3" data-name="Прямоугольник 530" class="cls-6" x="1215" y="87" width="64" height="77"/>
+    <rect id="Прямоугольник_532-3" data-name="Прямоугольник 532" class="cls-6" x="1215" y="224" width="64" height="63"/>
+    <rect id="Прямоугольник_533-3" data-name="Прямоугольник 533" class="cls-6" x="1215" y="290" width="64" height="41"/>
+    <rect id="Прямоугольник_534-3" data-name="Прямоугольник 534" class="cls-6" x="1215" y="334" width="64" height="78"/>
+    <rect id="Прямоугольник_535-3" data-name="Прямоугольник 535" class="cls-6" x="1215" y="439" width="64" height="15"/>
+    <rect id="Прямоугольник_536-3" data-name="Прямоугольник 536" class="cls-6" x="1215" y="490" width="64" height="20"/>
+    <rect id="Прямоугольник_537-2" data-name="Прямоугольник 537" class="cls-6" x="1215" y="513" width="64" height="39"/>
+    <rect id="Прямоугольник_538-2" data-name="Прямоугольник 538" class="cls-6" x="1215" y="555" width="64" height="26"/>
+  </g>
+  <g id="Смежные_стены-3" data-name="Смежные стены">
+    <rect id="Прямоугольник_714" data-name="Прямоугольник 714" class="cls-4" x="1346" y="544" width="3" height="37"/>
+    <rect id="Прямоугольник_715" data-name="Прямоугольник 715" class="cls-4" x="1312" y="541" width="95" height="3"/>
+    <rect id="Прямоугольник_716" data-name="Прямоугольник 716" class="cls-4" x="1312" y="22" width="3" height="519"/>
+    <rect id="Прямоугольник_717" data-name="Прямоугольник 717" class="cls-4" x="1315" y="472" width="92" height="3"/>
+    <rect id="Прямоугольник_718" data-name="Прямоугольник 718" class="cls-4" x="1315" y="446" width="92" height="3"/>
+    <rect id="Прямоугольник_719" data-name="Прямоугольник 719" class="cls-4" x="1315" y="369" width="92" height="3"/>
+    <rect id="Прямоугольник_720" data-name="Прямоугольник 720" class="cls-4" x="1315" y="347" width="92" height="3"/>
+    <rect id="Прямоугольник_721" data-name="Прямоугольник 721" class="cls-4" x="1315" y="325" width="92" height="3"/>
+    <rect id="Прямоугольник_722" data-name="Прямоугольник 722" class="cls-4" x="1315" y="220" width="92" height="3"/>
+    <rect id="Прямоугольник_723" data-name="Прямоугольник 723" class="cls-4" x="1315" y="195" width="92" height="3"/>
+    <rect id="Прямоугольник_724" data-name="Прямоугольник 724" class="cls-4" x="1315" y="79" width="77" height="3"/>
+    <rect id="Прямоугольник_725" data-name="Прямоугольник 725" class="cls-4" x="1279" y="487" width="3" height="94"/>
+    <rect id="Прямоугольник_726" data-name="Прямоугольник 726" class="cls-4" x="1279" y="436" width="3" height="21"/>
+    <rect id="Прямоугольник_727" data-name="Прямоугольник 727" class="cls-4" x="1215" y="552" width="64" height="3"/>
+    <rect id="Прямоугольник_728" data-name="Прямоугольник 728" class="cls-4" x="1215" y="510" width="64" height="3"/>
+    <rect id="Прямоугольник_729" data-name="Прямоугольник 729" class="cls-4" x="1215" y="487" width="64" height="3"/>
+    <rect id="Прямоугольник_730" data-name="Прямоугольник 730" class="cls-4" x="1215" y="454" width="64" height="3"/>
+    <rect id="Прямоугольник_731" data-name="Прямоугольник 731" class="cls-4" x="1215" y="436" width="64" height="3"/>
+    <rect id="Прямоугольник_732" data-name="Прямоугольник 732" class="cls-4" x="1215" y="412" width="67" height="3"/>
+    <rect id="Прямоугольник_733" data-name="Прямоугольник 733" class="cls-4" x="1279" y="221" width="3" height="191"/>
+    <rect id="Прямоугольник_734" data-name="Прямоугольник 734" class="cls-4" x="1215" y="331" width="64" height="3"/>
+    <rect id="Прямоугольник_735" data-name="Прямоугольник 735" class="cls-4" x="1215" y="287" width="64" height="3"/>
+    <rect id="Прямоугольник_736" data-name="Прямоугольник 736" class="cls-4" x="1215" y="221" width="64" height="3"/>
+    <rect id="Прямоугольник_502-2" data-name="Прямоугольник 502" class="cls-4" x="1215" y="188" width="67" height="3"/>
+    <rect id="Прямоугольник_503-2" data-name="Прямоугольник 503" class="cls-4" x="1279" y="87" width="3" height="80"/>
+    <rect id="Прямоугольник_504-2" data-name="Прямоугольник 504" class="cls-4" x="1246" y="84" width="36" height="3"/>
+    <rect id="Прямоугольник_505-2" data-name="Прямоугольник 505" class="cls-4" x="1215" y="164" width="64" height="3"/>
+    <rect id="Прямоугольник_506-2" data-name="Прямоугольник 506" class="cls-4" x="1271" y="22" width="3" height="62"/>
+  </g>
+</svg>

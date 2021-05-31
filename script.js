@@ -14,7 +14,7 @@ $('.info-item').on('click', function(){
 	$('.map path').attr('class', '');
 
 	var popup = $(this).find('.info-popup');
-	$(popup).css('bottom', '-' + ($(popup).outerHeight(true) + 40) + 'px');
+	$(popup).css('bottom', '-' + ($(popup).outerHeight(true) + 25) + 'px');
 	$(popup).css('left', '-' + (($(popup).outerWidth(true) / 2) - ($(this).outerWidth(true) / 2)) + 'px');
 	$('.info path[data-id=' + $(this).data('id') + ']').attr('class', 'active');
 	$(popup).show();
@@ -34,8 +34,8 @@ $("body").click(function(e) {
 	}
 });
 
-// $('body').on('click', function(){
-//     var x=event.pageX;
-//     var y=event.pageY;
-// 	console.log(x,y)
-// })
+$('body').on('click', function(){
+    var x=event.pageX;
+    var y=event.pageY;
+	console.log(x,y)
+})

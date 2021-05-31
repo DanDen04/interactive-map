@@ -20,6 +20,7 @@ body {
 	*/
 	-webkit-user-select: none;
 	margin: 0px;
+	background-color: #A6D0E4;
 }
 
 /* Карта */
@@ -42,23 +43,23 @@ svg {
 }
 
 path {
-	opacity: .4;
-	fill: #4c87af;
+	fill: #C7C7C5;
 	cursor: pointer;
 }
 
 path:hover {
-	fill: #af4c4c;
-	transition: .3s;
+	fill: #5598CF;
 }
 
 .title {
 	text-align: center;
 	font-size: 24px;
+	font-family: sans-serif;
+	color: white;
 }
 
 .map path:hover, #hover {
-	fill: #af4c4c;
+	fill: #5598CF;
 }
 
 /* Информация */
@@ -72,30 +73,19 @@ path:hover {
 	font-weight: bold;
 }
 .info-name {
+	font-family: sans-serif;
 	font-weight: bold;
-	font-size: 14px;
+	line-height: 20px;
 	text-align: center;
-	line-height: 15px;
+	border-radius: 5px;
 	cursor: pointer;
-}
-.info-name.vert {
-	font-weight: bold;
-	font-size: 14px;
-	text-align: center;
-	cursor: pointer;
-	letter-spacing: 2px;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	transform: rotate(-90deg);
+	color: white;
 }
 .info-popup {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
 	display: none;
-	border: 1px solid #777;
-	padding: 10px;
-	width: 250px;
+	padding: 15px;
+	width: 200px;
 	height: 250px;
 	position: absolute;
 	font-size: 14px;
@@ -103,16 +93,10 @@ path:hover {
 	background: #fff;
 	z-index: 9999;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: 1px solid white;
+	border-radius: 15px;
 	text-align: left;
 	overflow-y: auto;
-}
-
-.photo {
-	border-radius: 10px;
-	width: 100%;
-	height: 100%;
-	display: block;
-	margin: auto;
 }
 
 /* Полоса прокрутки */
